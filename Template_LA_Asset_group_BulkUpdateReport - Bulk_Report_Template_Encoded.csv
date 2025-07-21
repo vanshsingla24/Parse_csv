@@ -1,0 +1,18 @@
+Blitz ID,Asset Group,inputType,preSlateTime,testingStartTime,telecastTime,postSlateEnd,inputFeed,eventTier,feedType,feedUrl,feedLanguage,adConfig,adTagUrl,adDecisioningServer,partnerName,platforms,adType,adLanguage,Failure Reason 1,Failure Reason 2,Failure Reason 3,
+123456,Asset Group,EncodedStream-SCTE,15/08/2025 08:30,15/08/2025 08:30,15/08/2025 09:00,15/08/2025 12:00,Feed_1,ENCODEDSTREAM-AKAMAI-SPORTS,Primary,https://mslstream-c/hls/eng/master.m3u8,ENG,Feed_1_ad_1,https://ads.com/adtag,GAM,Airtel Xstream,MOBILE,MT-PRE-ROLL,"ENG,HIN",,,,
+,,,,,,,,,,,,Feed_1_ad_2,https://ads.com/adtag3,GAM,SonyLiv,TV,MT-MID-ROLL,"ENG,HIN",,,,
+,,,,,,,Feed_2,ENCODEDSTREAM-AKAMAI-GEC,Backup,https://mslstream-c/hls/eng/master.m3u8,ENG,Feed_2_ad_1,https://ads.com/adtag,GAM,Airtel Xstream,MOBILE,MT-PRE-ROLL,"ENG,HIN",,,,
+,,,,,,,,,,,,Feed_2_ad_2,https://ads.com/adtag3,GAM,SonyLiv,TV,MT-MID-ROLL,"ENG,HIN",,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+Blitz ID,Asset Group,inputType,preSlateTime,testingStartTime,telecastTime,postSlateEnd,inputFeed,eventTier,feedType,feedUrl,feedLanguage,adConfig,adTagUrl,adDecisioningServer,partnerName,platforms,adType,adLanguage,Failure Reason 1,Failure Reason 2,Failure Reason 3,Error Structure
+123456,Asset Group,EncodedStream-SCTE,15/08/2025 08:30,15/08/2025 08:30,15/08/2025 09:00,15/08/2025 12:00,Feed_1,ENCODEDSTREAM-AKAMAI-SPORTS,Primary,https://mslstream-c/hls/eng/master.m3u8,ENG,Feed_1_ad_1,https://ads.com/adtag,GAM,Airtel Xstream,MOBILE,MT-PRE-ROLL,"ENG,HIN",,,,
+,,,,,,,,,,,,Feed_1_ad_2,https://ads.com/adtag3,GAM,SonyLiv,TV,MT-MID-ROLL,"ENG,HIN",,,,
+,,,,,,,Feed_2,ENCODEDSTREAM-AKAMAI-GEC,Backup,https://mslstream-c/hls/eng/master.m3u8,ENG,Feed_2_ad_1,https://ads.com/adtag,GAM,Airtel Xstream,MOBILE,MT-PRE-ROLL,"ENG,HIN",,,,
+,,,,,,,,,,,,Feed_2_ad_2,https://ads.com/adtag3,GAM,SonyLiv,TV,MT-MID-ROLL,"ENG,HIN",,,,
+,,,,,,,,,,,,Feed_2_ad_3,https://ads.com/adtag3,GAM,SonyLiv,TV,MT-MID-ROLL,ENG,,,,
+,,,,,,,,,,,,,,,,,,,,,,Error Structure
+Blitz ID,Asset Group,inputType,preSlateTime,testingStartTime,telecastTime,postSlateEnd,inputFeed,eventTier,feedType,feedUrl,feedLanguage,adConfig,adTagUrl,adDecisioningServer,partnerName,platforms,adType,adLanguage,Failure Reason 1,Failure Reason 2,Failure Reason 3,
+123456,Asset Group,EncodedStream-SCTE,15/08/2025 08:30,15/08/2025 08:30,15/08/2025 09:00,15/08/2025 12:00,Feed_1,ENCODEDSTREAM-AKAMAI-SPORTS,Primary,https://mslstream-c/hls/eng/master.m3u8,ENG,Feed_1_ad_1,https://ads.com/adtag,GAM,Airtel Xstream,MOBILE,MT-PRE-ROLL,"ENG,HIN",,,,
+,,,,,,,,,,,,Feed_1_ad_2,https://ads.com/adtag3,GAM,SonyLiv,TV,MT-MID-ROLL,"ENG,HIN",,,,
+,,,,,,,Feed_2,ENCODEDSTREAM-AKAMAI-GEC,Backup,https://mslstream-c/hls/eng/master.m3u8,ENG,,,,,,,,,,,

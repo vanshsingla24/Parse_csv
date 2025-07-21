@@ -1,49 +1,41 @@
-# CSV to Nested JSON Converter
+# CSV to JSON Converter
 
-This is a Flask web application that allows you to upload a CSV file, preview its contents, and convert it to a nested JSON structure. You can also preview and download the resulting JSON.
+This script converts a specially structured CSV file (with parent and sub-rows, and repeated headers) into a flat JSON array, merging sub-rows into their parent records.
 
-## Features
-- Upload any CSV file via the web interface
-- Preview the first 5 rows of your CSV
-- View the converted JSON in a collapsible/expandable viewer
-- Download the resulting JSON file
+## Requirements
 
-## Setup
+- Python 3.7+
+- pandas
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/vanshsingla24/Parse_csv.git
-   cd Parse_csv
+Install requirements:
+```bash
+pip install -r requirements.txt
+```
+
+## Usage
+
+1. Open `csv_to_json.py` in your editor.
+2. At the top of the file, set:
+   ```python
+   INPUT_CSV = "your_input.csv"      # Path to your CSV file
+   OUTPUT_JSON = "your_output.json"  # Path to save JSON, or None to print to terminal
    ```
-
-2. **Create a virtual environment (recommended):**
-   ```bash
-   python3 -m venv venv
-   source venv/bin/activate
+   For example:
+   ```python
+   INPUT_CSV = "Template_LA_Asset_group_BulkUpdateReport - Bulk_Report_Template_Encoded.csv"
+   OUTPUT_JSON = "output.json"
    ```
-
-3. **Install dependencies:**
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-## Running the App
-
-1. **Start the Flask server:**
+3. Run the script:
    ```bash
    python3 csv_to_json.py
    ```
+   - If `OUTPUT_JSON` is set, the JSON will be saved to that file.
+   - If `OUTPUT_JSON` is `None`, the JSON will be printed to the terminal.
 
-2. **Open your browser and go to:**
-   ```
-   http://127.0.0.1:5000/
-   ```
+## What it does
+- Handles CSVs with repeated headers and sub-rows.
+- Merges sub-rows into their parent records.
+- Outputs a flat JSON array, one object per record.
 
-3. **Upload your CSV file, preview the data, and download the JSON!**
-
-## Notes
-- Do not commit your `venv` or large data files to the repository.
-- For production use, consider deploying with a production WSGI server (e.g., Gunicorn).
-
-## License
-MIT 
+## Example
+See the sample CSV and generated `output.json` for reference. 
